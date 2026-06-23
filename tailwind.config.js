@@ -1,7 +1,14 @@
-module.export = {
-    content: ["./src/**/*.{html, js,ts,jsx,tsx"],
+module.exports = {
+    darkMode: 'class',
     theme: {
-        extend: {},
+        extend: {
+            colors: {
+                mainColor: '#c37da1bf',
+            },
+            spacing: {
+                big: "50px",
+            },
+        },
     },
     plugins: [],
 };
